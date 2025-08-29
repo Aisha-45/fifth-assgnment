@@ -17,7 +17,7 @@
         </div>
         <div class="flex gap-3 ">
             <div class="flex bg-[#c8fcd3] h-[40px] w-[100px] text-center items-center justify-center rounded-3xl gap-2">
-                <h4 id="heart-main" class="font-bold">0</h4>
+                <h4 id="heartMain" class="font-bold">0</h4>
                 <img class="w-[30px] h-[30px]" src="assets/heart.png" alt="">
             </div>
             <div class="flex  bg-[#c8fcd3] h-[40px] w-[100px] text-center items-center justify-center rounded-3xl gap-2">
@@ -25,7 +25,7 @@
                 <img class="w-[30px] h-[30px]" src="assets/coin.png" alt="">
             </div>
             <div class=" bg-[#00A63E] w-[100px] h-[40px] pt-1.5 rounded-3xl text-center">
-                <h4 class="font-bold text-white">0 Copy</h4>
+                <h4 class="font-bold text-white"><span class="copyCount">0</span> Copy</h4>
             </div>
         </div>
     </nav>
@@ -40,84 +40,84 @@
             <div class="bg-white rounded-lg p-5 shadow-md">
                 <div class="flex justify-between items-center">
                     <img class="w-10 rounded-xl p-2 bg-red-200" src="assets/emergency.png" alt="">
-                    <p id="heart"><i class="fa-regular fa-heart hover:text-red-500"></i></p>
+                    <p class="heart"><i class="fa-regular fa-heart hover:text-red-500"></i></p>
                 </div>
                 <h3 class="text-[17px] font-bold">National Emergency Number</h3>
                 <p class="text-[#9b9898]">National Emergency</p>
-                <h2 class="text-[45px] font-bold">999</h2>
+                <h2 class="copyText text-[45px] font-bold">999</h2>
                 <p class="p-2 bg-[#F2F2F2] w-12 text-center rounded-lg text-[#9b9898] text-[13px] mb-3">All</p>
                 <div class="flex gap-2">
-                    <button class="btn btn-outline w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
-                <button class="btn btn-active btn-success bg-[#00A63E] w-[50%]"><i class="fa-solid fa-phone"></i> Call</button>
+                    <button class="copyButton btn btn-outline w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
+                <button class=" btn btn-active btn-success bg-[#00A63E] w-[50%]"><i class="fa-solid fa-phone"></i> Call</button>
                 </div>
             </div>
             <div class="bg-white rounded-lg p-5 shadow-md">
                 <div class="flex justify-between items-center">
                     <img class="w-10 rounded-xl p-2 bg-blue-200" src="assets/police.png" alt="">
-                    <p><i class="fa-regular fa-heart"></i></p>
+                    <p class="heart hover:text-red-500"><i class="fa-regular fa-heart"></i></p>
                 </div>
                 <h3 class="text-[20px] font-bold">Police Helpline Number</h3>
                 <p class="text-[#9b9898]">Police</p>
-                <h2 class="text-[45px] font-bold">999</h2>
+                <h2 class="copyText text-[45px] font-bold">999</h2>
                 <p class="p-2 bg-[#F2F2F2] w-12 text-center rounded-lg text-[#9b9898] text-[13px] mb-3">Police</p>
                 <div class="flex gap-2">
-                    <button class="btn btn-outline w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
+                    <button class="copyButton btn btn-outline w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
                 <button class="btn btn-active btn-success bg-[#00A63E] w-[50%]"><i class="fa-solid fa-phone"></i> Call</button>
                 </div>
             </div>
             <div class="bg-white rounded-lg p-5 shadow-md">
                 <div class="flex justify-between items-center">
                     <img class="w-10 rounded-xl p-2 bg-red-200" src="assets/emergency.png" alt="">
-                    <p><i class="fa-regular fa-heart"></i></p>
+                    <p class="heart hover:text-red-500"><i class="fa-regular fa-heart"></i></p>
                 </div>
                 <h3 class="text-[20px] font-bold">Fire Service Number</h3>
                 <p class="text-[#9b9898]">Fire Service</p>
-                <h2 class="text-[45px] font-bold">999</h2>
+                <h2 class="copyText text-[45px] font-bold">999</h2>
                 <p class="p-2 bg-[#F2F2F2] w-27 text-center rounded-lg text-[#9b9898] text-[13px] mb-3">Fire Service</p>
                 <div class="flex gap-2">
-                    <button class="btn btn-outline w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
+                    <button class="copyButton btn btn-outline w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
                 <button class="btn btn-active btn-success bg-[#00A63E] w-[50%]"><i class="fa-solid fa-phone"></i> Call</button>
                 </div>
             </div>
             <div class="bg-white rounded-lg p-5 shadow-md">
                 <div class="flex justify-between items-center">
                     <img class="w-10 rounded-xl p-2 bg-red-200" src="assets/emergency.png" alt="">
-                    <p><i class="fa-regular fa-heart"></i></p>
+                    <p class="heart hover:text-red-500"><i class="fa-regular fa-heart"></i></p>
                 </div>
                 <h3 class="text-[20px] font-bold">Women & Child Helpline</h3>
                 <p class="text-[#9b9898]">Women & Child Helpline</p>
-                <h2 class="text-[45px] font-bold">999</h2>
+                <h2 class="copyText text-[45px] font-bold">999</h2>
                 <p class="p-2 bg-[#F2F2F2] w-12 text-center rounded-lg text-[#9b9898] text-[13px] mb-3">Help</p>
                 <div class="flex gap-2">
-                    <button class="btn btn-outline w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
+                    <button class="copyButton btn btn-outline w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
                 <button class="btn btn-active btn-success bg-[#00A63E] w-[50%]"><i class="fa-solid fa-phone"></i> Call</button>
                 </div>
             </div>
             <div class="bg-white rounded-lg p-5 shadow-md">
                 <div class="flex justify-between items-center">
                     <img class="w-10 rounded-xl p-2 bg-red-200" src="assets/emergency.png" alt="">
-                    <p><i class="fa-regular fa-heart"></i></p>
+                    <p class="heart hover:text-red-500"><i class="fa-regular fa-heart"></i></p>
                 </div>
                 <h3 class="text-[20px] font-bold">Brac Helpline</h3>
                 <p class="text-[#9b9898]">Brac</p>
-                <h2 class="text-[45px] font-bold">16445</h2>
+                <h2 class="copyText text-[45px] font-bold">16445</h2>
                 <p class="p-2 bg-[#F2F2F2] w-12 text-center rounded-lg text-[#9b9898] text-[13px] mb-3">NGO</p>
                 <div class="flex gap-2">
-                    <button class="btn btn-outline w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
+                    <button class="copyButton btn btn-outline w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
                 <button class="btn btn-active btn-success bg-[#00A63E] w-[50%]"><i class="fa-solid fa-phone"></i> Call</button>
                 </div>
             </div>
             <div class="bg-white rounded-lg p-5 shadow-md">
                 <div class="flex justify-between items-center">
                     <img class="w-10 rounded-xl p-2 bg-red-200" src="assets/emergency.png" alt="">
-                    <p><i class="fa-regular fa-heart"></i></p>
+                    <p class="heart hover:text-red-500"><i class="fa-regular fa-heart"></i></p>
                 </div>
                 <h3 class="text-[17px] font-bold">National Emergency Number</h3>
                 <p class="text-[#9b9898]">National Emergency</p>
-                <h2 class="text-[45px] font-bold">999</h2>
+                <h2 class="copyText text-[45px] font-bold">999</h2>
                 <p class="p-2 bg-[#F2F2F2] w-12 text-center rounded-lg text-[#9b9898] text-[13px] mb-3">All</p>
                 <div class="flex gap-2">
-                    <button class="btn btn-outline w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
+                    <button class="copyButton btn btn-outline w-[50%]"><i class="fa-solid fa-copy"></i> Copy</button>
                 <button class="btn btn-active btn-success bg-[#00A63E] w-[50%]"><i class="fa-solid fa-phone"></i> Call</button>
                 </div>
             </div>
